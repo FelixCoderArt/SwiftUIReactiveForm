@@ -13,6 +13,8 @@ struct ContentView: View {
     @State var firstName = ""
     @State var lastName = ""
     
+    @State var users = [String]()
+    
     var body: some View {
         NavigationView {
             VStack {
@@ -35,7 +37,7 @@ struct ContentView: View {
                         .shadow(radius: 5)
                         
                         Button(action: {
-                            
+                            self.users.append("Create new Accaunt")
                         }) {
                             Group {
                                 Text("Create")
@@ -49,8 +51,8 @@ struct ContentView: View {
                     }.padding(12)
                 }.background(Color.gray)
                 
-                List {
-                    Text("Placeholder")
+                List(users,id: \.self) {
+                    Text($0)
                 }
             }.navigationBarTitle(Text("Restration Form"))
         }
