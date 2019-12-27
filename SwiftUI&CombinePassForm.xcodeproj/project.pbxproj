@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		883C01B423B6499300AAAFC2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883C01B323B6499300AAAFC2 /* AppDelegate.swift */; };
+		883C01B623B6499300AAAFC2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883C01B523B6499300AAAFC2 /* SceneDelegate.swift */; };
+		883C01B823B6499300AAAFC2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883C01B723B6499300AAAFC2 /* ContentView.swift */; };
+		883C01BA23B6499B00AAAFC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 883C01B923B6499B00AAAFC2 /* Assets.xcassets */; };
+		883C01BD23B6499B00AAAFC2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 883C01BC23B6499B00AAAFC2 /* Preview Assets.xcassets */; };
+		883C01C023B6499B00AAAFC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 883C01BE23B6499B00AAAFC2 /* LaunchScreen.storyboard */; };
+		883C01CB23B6499C00AAAFC2 /* SwiftUI_CombinePassFormTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883C01CA23B6499C00AAAFC2 /* SwiftUI_CombinePassFormTests.swift */; };
+		883C01D623B6499C00AAAFC2 /* SwiftUI_CombinePassFormUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883C01D523B6499C00AAAFC2 /* SwiftUI_CombinePassFormUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		883C01C723B6499C00AAAFC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 883C01A823B6499300AAAFC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 883C01AF23B6499300AAAFC2;
+			remoteInfo = "SwiftUI&CombinePassForm";
+		};
+		883C01D223B6499C00AAAFC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 883C01A823B6499300AAAFC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 883C01AF23B6499300AAAFC2;
+			remoteInfo = "SwiftUI&CombinePassForm";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		883C01B023B6499300AAAFC2 /* SwiftUI&CombinePassForm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI&CombinePassForm.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		883C01B323B6499300AAAFC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		883C01B523B6499300AAAFC2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		883C01B723B6499300AAAFC2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		883C01B923B6499B00AAAFC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		883C01BC23B6499B00AAAFC2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		883C01BF23B6499B00AAAFC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		883C01C123B6499B00AAAFC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		883C01C623B6499C00AAAFC2 /* SwiftUI&CombinePassFormTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI&CombinePassFormTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		883C01CA23B6499C00AAAFC2 /* SwiftUI_CombinePassFormTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_CombinePassFormTests.swift; sourceTree = "<group>"; };
+		883C01CC23B6499C00AAAFC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		883C01D123B6499C00AAAFC2 /* SwiftUI&CombinePassFormUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI&CombinePassFormUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		883C01D523B6499C00AAAFC2 /* SwiftUI_CombinePassFormUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_CombinePassFormUITests.swift; sourceTree = "<group>"; };
+		883C01D723B6499C00AAAFC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		883C01AD23B6499300AAAFC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		883C01C323B6499C00AAAFC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		883C01CE23B6499C00AAAFC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		883C01A723B6499300AAAFC2 = {
+			isa = PBXGroup;
+			children = (
+				883C01B223B6499300AAAFC2 /* SwiftUI&CombinePassForm */,
+				883C01C923B6499C00AAAFC2 /* SwiftUI&CombinePassFormTests */,
+				883C01D423B6499C00AAAFC2 /* SwiftUI&CombinePassFormUITests */,
+				883C01B123B6499300AAAFC2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		883C01B123B6499300AAAFC2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				883C01B023B6499300AAAFC2 /* SwiftUI&CombinePassForm.app */,
+				883C01C623B6499C00AAAFC2 /* SwiftUI&CombinePassFormTests.xctest */,
+				883C01D123B6499C00AAAFC2 /* SwiftUI&CombinePassFormUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		883C01B223B6499300AAAFC2 /* SwiftUI&CombinePassForm */ = {
+			isa = PBXGroup;
+			children = (
+				883C01B323B6499300AAAFC2 /* AppDelegate.swift */,
+				883C01B523B6499300AAAFC2 /* SceneDelegate.swift */,
+				883C01B723B6499300AAAFC2 /* ContentView.swift */,
+				883C01B923B6499B00AAAFC2 /* Assets.xcassets */,
+				883C01BE23B6499B00AAAFC2 /* LaunchScreen.storyboard */,
+				883C01C123B6499B00AAAFC2 /* Info.plist */,
+				883C01BB23B6499B00AAAFC2 /* Preview Content */,
+			);
+			path = "SwiftUI&CombinePassForm";
+			sourceTree = "<group>";
+		};
+		883C01BB23B6499B00AAAFC2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				883C01BC23B6499B00AAAFC2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		883C01C923B6499C00AAAFC2 /* SwiftUI&CombinePassFormTests */ = {
+			isa = PBXGroup;
+			children = (
+				883C01CA23B6499C00AAAFC2 /* SwiftUI_CombinePassFormTests.swift */,
+				883C01CC23B6499C00AAAFC2 /* Info.plist */,
+			);
+			path = "SwiftUI&CombinePassFormTests";
+			sourceTree = "<group>";
+		};
+		883C01D423B6499C00AAAFC2 /* SwiftUI&CombinePassFormUITests */ = {
+			isa = PBXGroup;
+			children = (
+				883C01D523B6499C00AAAFC2 /* SwiftUI_CombinePassFormUITests.swift */,
+				883C01D723B6499C00AAAFC2 /* Info.plist */,
+			);
+			path = "SwiftUI&CombinePassFormUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		883C01AF23B6499300AAAFC2 /* SwiftUI&CombinePassForm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 883C01DA23B6499C00AAAFC2 /* Build configuration list for PBXNativeTarget "SwiftUI&CombinePassForm" */;
+			buildPhases = (
+				883C01AC23B6499300AAAFC2 /* Sources */,
+				883C01AD23B6499300AAAFC2 /* Frameworks */,
+				883C01AE23B6499300AAAFC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SwiftUI&CombinePassForm";
+			productName = "SwiftUI&CombinePassForm";
+			productReference = 883C01B023B6499300AAAFC2 /* SwiftUI&CombinePassForm.app */;
+			productType = "com.apple.product-type.application";
+		};
+		883C01C523B6499C00AAAFC2 /* SwiftUI&CombinePassFormTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 883C01DD23B6499C00AAAFC2 /* Build configuration list for PBXNativeTarget "SwiftUI&CombinePassFormTests" */;
+			buildPhases = (
+				883C01C223B6499C00AAAFC2 /* Sources */,
+				883C01C323B6499C00AAAFC2 /* Frameworks */,
+				883C01C423B6499C00AAAFC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				883C01C823B6499C00AAAFC2 /* PBXTargetDependency */,
+			);
+			name = "SwiftUI&CombinePassFormTests";
+			productName = "SwiftUI&CombinePassFormTests";
+			productReference = 883C01C623B6499C00AAAFC2 /* SwiftUI&CombinePassFormTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		883C01D023B6499C00AAAFC2 /* SwiftUI&CombinePassFormUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 883C01E023B6499C00AAAFC2 /* Build configuration list for PBXNativeTarget "SwiftUI&CombinePassFormUITests" */;
+			buildPhases = (
+				883C01CD23B6499C00AAAFC2 /* Sources */,
+				883C01CE23B6499C00AAAFC2 /* Frameworks */,
+				883C01CF23B6499C00AAAFC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				883C01D323B6499C00AAAFC2 /* PBXTargetDependency */,
+			);
+			name = "SwiftUI&CombinePassFormUITests";
+			productName = "SwiftUI&CombinePassFormUITests";
+			productReference = 883C01D123B6499C00AAAFC2 /* SwiftUI&CombinePassFormUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		883C01A823B6499300AAAFC2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Felix Falkovsky";
+				TargetAttributes = {
+					883C01AF23B6499300AAAFC2 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					883C01C523B6499C00AAAFC2 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 883C01AF23B6499300AAAFC2;
+					};
+					883C01D023B6499C00AAAFC2 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 883C01AF23B6499300AAAFC2;
+					};
+				};
+			};
+			buildConfigurationList = 883C01AB23B6499300AAAFC2 /* Build configuration list for PBXProject "SwiftUI&CombinePassForm" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 883C01A723B6499300AAAFC2;
+			productRefGroup = 883C01B123B6499300AAAFC2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				883C01AF23B6499300AAAFC2 /* SwiftUI&CombinePassForm */,
+				883C01C523B6499C00AAAFC2 /* SwiftUI&CombinePassFormTests */,
+				883C01D023B6499C00AAAFC2 /* SwiftUI&CombinePassFormUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		883C01AE23B6499300AAAFC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				883C01C023B6499B00AAAFC2 /* LaunchScreen.storyboard in Resources */,
+				883C01BD23B6499B00AAAFC2 /* Preview Assets.xcassets in Resources */,
+				883C01BA23B6499B00AAAFC2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		883C01C423B6499C00AAAFC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		883C01CF23B6499C00AAAFC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		883C01AC23B6499300AAAFC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				883C01B423B6499300AAAFC2 /* AppDelegate.swift in Sources */,
+				883C01B623B6499300AAAFC2 /* SceneDelegate.swift in Sources */,
+				883C01B823B6499300AAAFC2 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		883C01C223B6499C00AAAFC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				883C01CB23B6499C00AAAFC2 /* SwiftUI_CombinePassFormTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		883C01CD23B6499C00AAAFC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				883C01D623B6499C00AAAFC2 /* SwiftUI_CombinePassFormUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		883C01C823B6499C00AAAFC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 883C01AF23B6499300AAAFC2 /* SwiftUI&CombinePassForm */;
+			targetProxy = 883C01C723B6499C00AAAFC2 /* PBXContainerItemProxy */;
+		};
+		883C01D323B6499C00AAAFC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 883C01AF23B6499300AAAFC2 /* SwiftUI&CombinePassForm */;
+			targetProxy = 883C01D223B6499C00AAAFC2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		883C01BE23B6499B00AAAFC2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				883C01BF23B6499B00AAAFC2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		883C01D823B6499C00AAAFC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		883C01D923B6499C00AAAFC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		883C01DB23B6499C00AAAFC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI&CombinePassForm/Preview Content\"";
+				DEVELOPMENT_TEAM = VB389A3EMH;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "SwiftUI&CombinePassForm/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "FealkovskyFelixDE.SwiftUI-CombinePassForm";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		883C01DC23B6499C00AAAFC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI&CombinePassForm/Preview Content\"";
+				DEVELOPMENT_TEAM = VB389A3EMH;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "SwiftUI&CombinePassForm/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "FealkovskyFelixDE.SwiftUI-CombinePassForm";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		883C01DE23B6499C00AAAFC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB389A3EMH;
+				INFOPLIST_FILE = "SwiftUI&CombinePassFormTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "FealkovskyFelixDE.SwiftUI-CombinePassFormTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftUI&CombinePassForm.app/SwiftUI&CombinePassForm";
+			};
+			name = Debug;
+		};
+		883C01DF23B6499C00AAAFC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB389A3EMH;
+				INFOPLIST_FILE = "SwiftUI&CombinePassFormTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "FealkovskyFelixDE.SwiftUI-CombinePassFormTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftUI&CombinePassForm.app/SwiftUI&CombinePassForm";
+			};
+			name = Release;
+		};
+		883C01E123B6499C00AAAFC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB389A3EMH;
+				INFOPLIST_FILE = "SwiftUI&CombinePassFormUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "FealkovskyFelixDE.SwiftUI-CombinePassFormUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SwiftUI&CombinePassForm";
+			};
+			name = Debug;
+		};
+		883C01E223B6499C00AAAFC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VB389A3EMH;
+				INFOPLIST_FILE = "SwiftUI&CombinePassFormUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "FealkovskyFelixDE.SwiftUI-CombinePassFormUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SwiftUI&CombinePassForm";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		883C01AB23B6499300AAAFC2 /* Build configuration list for PBXProject "SwiftUI&CombinePassForm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				883C01D823B6499C00AAAFC2 /* Debug */,
+				883C01D923B6499C00AAAFC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		883C01DA23B6499C00AAAFC2 /* Build configuration list for PBXNativeTarget "SwiftUI&CombinePassForm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				883C01DB23B6499C00AAAFC2 /* Debug */,
+				883C01DC23B6499C00AAAFC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		883C01DD23B6499C00AAAFC2 /* Build configuration list for PBXNativeTarget "SwiftUI&CombinePassFormTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				883C01DE23B6499C00AAAFC2 /* Debug */,
+				883C01DF23B6499C00AAAFC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		883C01E023B6499C00AAAFC2 /* Build configuration list for PBXNativeTarget "SwiftUI&CombinePassFormUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				883C01E123B6499C00AAAFC2 /* Debug */,
+				883C01E223B6499C00AAAFC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 883C01A823B6499300AAAFC2 /* Project object */;
+}
