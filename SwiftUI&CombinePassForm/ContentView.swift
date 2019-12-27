@@ -5,8 +5,9 @@
 //  Created by Felix Falkovsky on 27.12.2019.
 //  Copyright © 2019 Felix Falkovsky. All rights reserved.
 //
-
+import UIKit
 import SwiftUI
+import Combine
 
 struct ContentView: View {
     
@@ -37,14 +38,16 @@ struct ContentView: View {
                         .shadow(radius: 5)
                         
                         Button(action: {
-                            self.users.append("Create new Accaunt")
+                            self.users.append("\(self.firstName) \(self.lastName)")
+                            self.firstName = ""
+                            self.lastName = ""
                         }) {
                             Group {
                                 Text("Create")
                                     .foregroundColor(Color.white)
                                     .padding(12)
                                 }
-                            .background(Color.blue)
+                            .background((firstName.count + lastName.count > 0) ? Color.blue : Color.gray)
                             .cornerRadius(10)
                             .shadow(radius: 2)
                         }
@@ -55,6 +58,12 @@ struct ContentView: View {
                     Text($0)
                 }
             }.navigationBarTitle(Text("Restration Form"))
+                .navigationBarItems(leading: HStack {
+                    Text("First Name:")
+                    Text(firstName)
+                    Text("Last Name:")
+                    Text(lastName)
+                })
         }
     }
 }
